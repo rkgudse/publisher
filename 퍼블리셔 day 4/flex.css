@@ -1,0 +1,35 @@
+.box{
+    width: 600px;
+    height: 600px;
+    border: 1px solid rosybrown;
+    display: flex;
+
+
+}
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+
+}
+
+.red{
+    background-color: red;
+}
+
+.one{
+    flex-grow: 2;
+
+}
+
+.two{
+    flex-grow: 1;
+    }
+
+.three{
+    flex-grow: 1;
+
+}
