@@ -1,0 +1,46 @@
+.box{
+    width: 500px;
+    height: 500px;
+    background-color: #fffae0;
+
+    flex-direction: column;
+}
+.banner
+.sub-banner{
+    color: #7c7c7c;
+}
+.buttons-box{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+.buttons-box{}
+.google-button{
+    color: white;
+    font-weight: bold;
+    background-color: #ff6f0f;
+    width: 180px;
+    height: 56px;
+    border-radius: 10px;
+
+}
+
+.app-button{
+    color: white;
+    font-weight: bold;
+    background-color: #ff6f0f;
+    width: 180px;
+    height: 56px;
+    border-radius: 10px;
+
+}
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
