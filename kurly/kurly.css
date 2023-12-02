@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'omyu_pretty';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.image-box{
+    width: 249px;
+    height: 320px;
+    background-color: white;
+}
+
+.image-box > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+
+.cart-font{
+    font-family: 'omyu_pretty';
+    font-size: 20px;
+}
+
+.button-box{
+    width: 249px;
+    height: 36px;
+    background-color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    border: 1px solid rgb(221, 221, 221);
+    margin: 4px 0;
+}
+
+.main-text{
+    width: 249px;
+    font-size: 16px;
+    font-weight: normal;   
+}
+
+.sale-text{
+    font-size: 14px;
+    color: gray;
+    padding-bottom: 4px; 
+}
+
+.price-text{
+    font-weight: bold;
+}
+
+.sub-txt{
+    color: gray;
+    font-size: 12px;
+}
