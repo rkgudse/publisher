@@ -1,0 +1,35 @@
+.container{
+    width: 800px;
+    height: 800px;
+    border: 1px solid pink;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+   
+ 
+}
+
+.relative{
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+.red{
+    background-color: red;
+    z-index: 2;
+
+}
+.yellow{
+    background-color: yellow;
+    z-index: 1;
+    top: -50px;
+
+}
+.green{
+    background-color: green;
+    z-index: 1;
+}

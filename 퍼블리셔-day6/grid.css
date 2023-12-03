@@ -1,0 +1,17 @@
+.container{
+    width: 400px;
+    height: 100vh;
+    margin: 0 auto;
+    border: 1px solid gray;
+    gap: 10px;
+
+
+    display: grid;
+    /* 한조각씩 2열로 나열하기 */
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.box{
+    border: 1px solid black;
+    border-radius: 16px;
+}

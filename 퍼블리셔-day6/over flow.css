@@ -1,0 +1,18 @@
+.box{
+    width: 70px;
+    height: 80px;
+    padding: 10px;
+    font-size: 2rem;
+    border-radius: 6px;
+    border: 1px solid grey;
+}
+
+.visible{
+    overflow: visible;
+}
+
+.hidden{  overflow: hidden;}
+
+.scroll{  overflow: scroll;}
+
+.auto{  overflow: auto;}
