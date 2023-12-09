@@ -1,0 +1,69 @@
+.image-box{
+    width: 400px;
+    height: 400px;
+    margin-bottom: 50px;
+
+}
+
+.image-box > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 15px 15px 0 #ea9876;
+   
+}
+
+.stripe-box{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+}
+
+.stripe-box > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+   
+}
+
+.stripe-box::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: -15px;
+    right: -15px;
+    z-index: 1;
+    background-image: repeating-linear-gradient(
+        -45deg, 
+        #d34e23 0px, #d34e23 2px,
+        rgb(0 0 0 / 0) 0%, rgb(0 0 0 / 0) 1%
+    );
+}
+
+.mega-coffee{
+    display: block;
+    position: relative;
+    padding: 30px 10px;
+    width: 260px;
+    color: #333;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    /* 인라인태그 밑줄 삭제 */
+    text-decoration: none;
+    background-color: #90be70;
+}
+
+.mega-coffee::before{
+    content: "";
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    width: calc(100% - 4px);
+    height: calc(100% - 4px);
+    background-color: rgba(0 0 0 / 0);
+    border: 2px solid #2b550e;
+} 
