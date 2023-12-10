@@ -1,0 +1,52 @@
+@media screen and (max-width: 1024px){
+    .container{
+        flex-direction: column;
+    }
+}   
+
+@media screen and (max-width: 768px){
+    .upper{
+        flex-direction: column;
+    }
+
+    .down{
+        flex-direction: column;
+      
+    }
+}   
+
+.upper{
+    display: flex;
+}
+
+.down{
+    display: flex;
+}
+
+.container{
+    width: 800px;
+    display: flex;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+}
+
+.r{
+    background-color: red;
+}
+
+.o{
+    background-color: green;
+}
+
+.y{
+    background-color: yellow;
+}
+
+.x{
+    background-color: palevioletred;
+}
+
+
