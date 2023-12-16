@@ -1,0 +1,56 @@
+//변수
+$first-color: skyblue;
+$second-color: lightblue;
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+    //Nasting, 들여쓰기
+    span{
+        font-size: 20px;
+    }
+    &:hover{
+        background-color: $second-color;
+    }
+}
+
+
+@mixin button($bc, $fs){
+    border: none;
+    border-radius: 6px;
+    padding: 10px 15px;
+    color: white;
+    cursor: pointer;
+    background-color: $bc;
+    font-size: $fs;
+}
+
+.sky-button{
+    @include button(skyblue, 20px)
+}
+
+.tomato-button{
+    @include button(tomato, 30px)
+}
+$main-color: #4AA366;
+
+@mixin starbuck-button($fc,$bg, $icon){
+    width: 330px;
+    height: 55px;
+    padding: 16px 130px;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    background-color: $bg;
+    color: $fc;
+//+넣으려면 ""추가해야함
+    &::before{
+        content: $icon;
+        margin-right: 10px;
+    }
+}
+.basic-button{
+    @include starbuck-button(white, $main-color, "!!!")
+}
+

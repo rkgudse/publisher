@@ -1,0 +1,13 @@
+.basic-header {
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.basic-header .image-box {
+  flex: 1;
+}
+.basic-header .basic-ul {
+  flex: 2;
+}/*# sourceMappingURL=header.css.map */

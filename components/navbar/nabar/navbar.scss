@@ -1,0 +1,27 @@
+@mixin basic-ul($color, $color-hover, $font-size){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+li{
+    padding: 20px 10px;
+    a{
+        color: $color;
+        text-decoration: none;
+        text-align: center;
+        font-size: $font-size;
+        &:hover{
+            color: $color-hover;
+        }
+    }   
+
+}
+}
+
+.basic-ul{
+    @include basic-ul(
+        grey, tomato, 16px)
+}
+
+
+

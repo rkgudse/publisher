@@ -1,0 +1,20 @@
+.basic-beadcrumbs {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.basic-beadcrumbs li a {
+  color: skyblue;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.basic-beadcrumbs li a::after {
+  color: tomato;
+  content: ">";
+  width: 10px;
+  height: 10px;
+  margin: 0 10px;
+}
+.basic-beadcrumbs li a:last-child::after {
+  content: "";
+}/*# sourceMappingURL=beadcrumbs.css.map */

@@ -1,0 +1,34 @@
+.form-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.form-box label {
+  flex: 1;
+}
+.form-box div {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.form-box div span {
+  word-break: keep-all;
+  color: white;
+  padding: 4px 10px;
+  background-color: skyblue;
+  border: 1px solid skyblue;
+  border-radius: 16px;
+  font-weight: 700;
+}
+.form-box div input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+.form-box div input:focus {
+  outline: none;
+}/*# sourceMappingURL=form.css.map */

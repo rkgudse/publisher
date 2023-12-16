@@ -1,0 +1,29 @@
+@mixin basic-beadcrumbs($color, $icon-color){
+    display: flex;
+    align-items: center;
+    list-style: none;
+    li{
+        a{
+            color: $color;
+            text-decoration: none;
+            // 올 대문자로 변경
+            text-transform: uppercase;
+
+            &::after{
+                color: $icon-color;
+                content: ">";
+                width: 10px;
+                height: 10px;
+                margin: 0 10px;
+
+            }
+            &:last-child::after{
+                content: "";
+            }
+        }
+    }
+}
+
+.basic-beadcrumbs{
+    @include basic-beadcrumbs(skyblue, tomato)
+}

@@ -1,0 +1,15 @@
+.basic-header{
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    .image-box{flex:1;
+
+    }
+    .basic-ul{
+        flex:2;
+    }
+  
+}

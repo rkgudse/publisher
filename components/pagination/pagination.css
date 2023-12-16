@@ -1,0 +1,17 @@
+.basic-pagination {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 10px;
+}
+.basic-pagination li {
+  padding: 10px 16px;
+  border-radius: 100%;
+}
+.basic-pagination li a {
+  text-decoration: none;
+  color: black;
+}
+.basic-pagination li:nth-child(2) {
+  background-color: #4aa366;
+}/*# sourceMappingURL=pagination.css.map */

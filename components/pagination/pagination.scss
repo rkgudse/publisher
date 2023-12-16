@@ -1,0 +1,24 @@
+@mixin basic-pagination($bg){
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+    li{
+        padding: 10px 16px;
+        border-radius: 100%;
+        a{
+           
+            text-decoration: none;
+            color: black;
+
+        }
+        &:nth-child(2){
+            background-color: $bg;
+        }
+    }
+}
+
+.basic-pagination{
+    @include basic-pagination(#4aa366);
+    
+}

@@ -1,0 +1,19 @@
+ul {
+  list-style: none;
+  padding: 20px;
+  -moz-column-count: 3;
+       column-count: 3;
+}
+ul li {
+  -moz-column-break-inside: avoid;
+       break-inside: avoid;
+}
+ul li img {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+}
+ul li p {
+  font-size: 14px;
+  text-align: center;
+}/*# sourceMappingURL=pinterest.css.map */
