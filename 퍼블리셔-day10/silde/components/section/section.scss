@@ -1,0 +1,36 @@
+.slide{
+    scroll-snap-align: start;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    
+    &:nth-child(1){
+        background-image: url(../../imags/cake1.jpg);
+       
+    }
+    &:nth-child(2){
+        background-image: url(../../imags/cake2.jpg);
+    }
+
+    &:nth-child(3){
+        background-image: url(../../imags/cake3.jpg);
+    }
+
+
+}
+
+.box{
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 150px;
+    h2{
+        font-size: 60px;
+    }
+    p{
+        font-size: 30px;
+    }
+
+}

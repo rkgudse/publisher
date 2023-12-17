@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    // 중앙배치
+    max-width: 800px;
+    margin: 0 auto;
+  
+    .image-box{
+        flex:1;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+           
+        }
+        @media screen and (max-width:1024px) {
+            width: 400px;
+        }
+    }
+
+    .text-box{
+        flex:1;
+        text-align: center;
+        h2{
+            word-break: keep-all;
+            font-size: 60px;
+        }   
+        p{
+            word-break: keep-all;
+            font-size: 30px;
+        }
+        @media screen and (max-width:1024px) {
+            width: 400px;
+        }
+    }
+    }
+
+    @media screen and (max-width:1024px) {
+        flex-direction: column;
+    }
+
+
+
+}
+

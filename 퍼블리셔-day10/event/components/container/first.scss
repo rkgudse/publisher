@@ -1,0 +1,41 @@
+.first{
+    background-image: url(../../imags/event1.jpg);
+    background-size: cover;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+
+    .box{
+        width: 100%;
+
+        max-width: 800px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        gap: 20px;
+        
+        h2{
+            font-size: 70px;
+
+        }
+        h3{
+            font-size: 40px;
+            border-top: 2px solid white;
+            border-bottom: 2px solid white ;
+            padding: 10px 0;
+        }
+        p{
+            font-size: 20px;
+        }
+       
+    }
+
+}
+
+// filter: blur(3px);
