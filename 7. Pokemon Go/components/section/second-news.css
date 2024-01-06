@@ -1,0 +1,128 @@
+:root {
+  --primary-navy-300: #0c1c3e;
+  --primary-navy-200: #0f224a;
+  --primary-navy-100: #0061af;
+  --secondary-red-100: #e1306d;
+  --secondary-green-100: #24cbaa;
+  --secondary-yellow-100: #f7cc46;
+  --color-navy: #18242e;
+  --color-black: #000;
+  --color-white: #fff;
+  --bg-skyblue-50: #d1eefd;
+  --bg-teal-50: #e2f7f7;
+}
+
+.news-imageBox {
+  width: 100%;
+  height: 831px;
+  position: relative;
+  margin: 0 auto;
+}
+.news-imageBox img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.news-imageBox .news {
+  width: 1300px;
+  height: 550px;
+  position: absolute;
+  top: 0%;
+  bottom: 35%;
+  left: 0%;
+  right: 0%;
+  margin: auto;
+  z-index: 1;
+}
+.news-imageBox .news h3 {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 700;
+  padding: 60px 40px 70px 0;
+}
+.news-imageBox .news .container {
+  background-color: transparent;
+  display: grid;
+  grid-template-areas: "a a a b b b" "a a a b b b" "c c d d e e";
+}
+.news-imageBox .news .container .first {
+  width: 548px;
+  height: 308px;
+  grid-area: a;
+}
+.news-imageBox .news .container .first img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.news-imageBox .news .container .sceond {
+  width: 548px;
+  height: 308px;
+  grid-area: b;
+}
+.news-imageBox .news .container .sceond img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.news-imageBox .news .container .third {
+  width: 357px;
+  height: 201px;
+  grid-area: c;
+}
+.news-imageBox .news .container .third img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.news-imageBox .news .container .fourth {
+  width: 357px;
+  height: 201px;
+  grid-area: d;
+}
+.news-imageBox .news .container .fourth img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.news-imageBox .news .container .fifth {
+  width: 357px;
+  height: 201px;
+  grid-area: e;
+}
+.news-imageBox .news .container .fifth img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.news-imageBox .news .bottomText {
+  width: 128px;
+  height: 30px;
+  font-size: 18px;
+  padding: 8px 13px;
+  margin: 15px auto;
+  font-weight: 600;
+  border: 2px solid var(--primary-navy-100);
+  border-radius: 50px;
+  background-color: var(--color-white);
+  color: var(--primary-navy-100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.news-imageBox .news .bottomText:hover {
+  background-color: #bae4f4;
+}
+.news-imageBox .flame {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 300px;
+  height: 300px;
+}
+.news-imageBox .flame img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}/*# sourceMappingURL=second-news.css.map */
